@@ -1,0 +1,52 @@
+.dark-mode {
+    background-color: var(--bg-dark-primary);
+    color: var(--text-dark-primary);
+}
+.nav-dark {
+    background-color: var(--bg-dark-secondary);
+    color: var(--text-dark-primary);
+}
+.sidebar-dark {
+    background-color: var(--bg-dark-secondary);
+    color: var(--text-dark-primary);
+}
+.floating-dark {
+    background-color: var(--bg-dark-secondary);
+    color: var(--text-dark-primary);
+}
+.floating-dark:hover {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+.sidebar-dark .nav-link {
+    color: var(--text-dark-primary);
+}
+.sidebar-dark .active {
+    background: var(--primary);
+}
+.card-dark {
+    background: var(--bg-dark-secondary);
+    color: var(--text-dark-primary);
+}
+.sidebar-dark .logout{
+    background: var(--primary);
+    color: var(--bg-primary);
+}
+.sidebar-dark .logout:hover{
+    color: var(--bg-primary);
+    background: transparent;
+    border: 2px solid var(--bg-primary);
+}
+.table-dark .action {
+    color: var(--text-dark-primary)
+}
+.model-dark .modal-content {
+    background: var(--bg-dark-secondary);
+    color: var(--text-dark-primary);
+}
+.card-dark .ck-toolbar_grouping .ck-icon, .card-dark .ck-button__label {
+    color: white !important
+}
+.card-dark .ck-button{
+    color: black !important;
+}

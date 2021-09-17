@@ -1,0 +1,47 @@
+@import "root.css";
+
+.navbar {
+    height: 100px;
+    background: white;
+}
+.nav-link {
+    color: var(--text-primary);
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #FE4A55 !important;
+}
+.active {
+    color: #FE4A55 !important;
+}
+body {
+    min-height: 5000px;
+    display: flex;
+    flex-direction: column;
+}
+.sticky-nav {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    right: 0;
+    display: block;
+    box-shadow : 0 1rem 3rem rgba(0,0,0,.175);
+    transition: top 0.3s;
+}
+.navbar .btn {
+    padding: 8px 25px;
+    background: #FE4A55;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    font-weight: 600;
+}
+.navbar .btn:hover {
+    border-color: #FE4A55;
+    color: #FE4A55;
+    background: transparent;
+}
+.navbar .nav-item {
+    margin-left: 15px
+}

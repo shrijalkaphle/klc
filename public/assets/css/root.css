@@ -1,0 +1,47 @@
+:root {
+    --primary: #095EA6;
+    --bg-primary: #ffffff;
+    --bg-secondary: #F5F5F5;
+    --text-primary: #000;
+    --bg-dark-primary: #18191A;
+    --bg-dark-secondary: #212529;
+    --text-dark-primary: #ffffff;
+    --sidebar-width: 280px;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 0.5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.eot");
+    src: url("../fonts/Flaticon.woff") format("woff"),
+    url("../fonts/Flaticon.otf") format("opentype"),
+    url("../fonts/Flaticon.svg#filename") format("svg");
+}
+body{
+    font-family: 'Flaticon', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+.material-icons-outlined {
+    display: inline-flex;
+    vertical-align: top;
+}
+@media (max-width: 992px) {
+    :root {
+        --sidebar-width: 0px;
+    }
+}
